@@ -1,3 +1,38 @@
+header {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#mySidenav {
+  background-color: white;
+}
+
+.glyphicon.glyphicon-menu-hamburger {
+  width: 37px;
+  height: 38px;
+  color: black;
+}
+
+.menu {
+  display: none;
+}
+
+.logo {
+  width: 175px;
+  height: 50.5px;
+}
+
+.panier{
+  width: 30px;
+}
+
+
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
