@@ -61,7 +61,80 @@ header {
     margin-bottom: 30px;
 }
 
+/*$$$$$$$$$$$$$$$$MAIN$$$$$$$$$$$$$$$$$$$$$*/
 div {
   position: absolute;
   top: 70px;
 }
+
+/*$$$$$$$$$$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$$$$*/
+
+.face, .twitter {
+    display: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer h5 {
+    font-size: 10px;
+    color: grey;
+}
+
+footer li {
+    font-size: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+}
+
+footer figure {
+    width: 40%;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav li {
+    color: grey;
+}
+
+footer input {
+    width: 200px;
+    height: 29px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer button {
+    width: 40px;
+    height: 31px;
+    border-radius: 0;
+    border: 1px solid grey;
+    font-size: 12px;
+    background-color: white;
+}
+
+/*$$$$$$$$$$$$$$$$END FOOTER$$$$$$$$$$$$$$$$$*/
+
+
+@media (min-width:768px) {
