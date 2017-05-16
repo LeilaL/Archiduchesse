@@ -30,6 +30,10 @@ header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer
                 header rules
 ========================================================================== */
 
+.logo {
+  background-color: white;
+}
+
 .logo figure {
     width: 90%;
     margin: 0 auto;
@@ -44,6 +48,10 @@ header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer
     height: 50.5px;
 }
 
+#panier {
+  width: 24px;
+}
+
 header {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
     position: fixed;
@@ -51,4 +59,9 @@ header {
     left: 0;
     z-index: 999;
     margin-bottom: 30px;
+}
+
+div {
+  position: absolute;
+  top: 70px;
 }
