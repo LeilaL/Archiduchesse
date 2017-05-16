@@ -63,8 +63,7 @@ header {
 
 /*$$$$$$$$$$$$$$$$MAIN$$$$$$$$$$$$$$$$$$$$$*/
 div {
-  position: absolute;
-  top: 70px;
+  margin-top: 70px;
 }
 
 /*$$$$$$$$$$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$$$$*/
@@ -134,14 +133,22 @@ footer button {
     background-color: white;
 }
 
+footer article img {
+  width: 55px;
+}
+
 /*$$$$$$$$$$$$$$$$END FOOTER$$$$$$$$$$$$$$$$$*/
 
 
-@media (min-width:768px) {
+@media (min-width:600px) {
   /*start of footer*/
 
+.face, .twitter {
+  display: block;
+}
+
     footer {
-        margin-top: 15%;
+        margin-top: 35%;
         display: flex;
     }
     footer input {
@@ -192,4 +199,21 @@ footer button {
 }
 
 
-@media (min-width:1280px) {
+@media (min-width:900px) {
+
+/*$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$$*/
+
+div img {
+  width: 100px;
+}
+
+  /*start of footer*/
+   footer article {
+        margin-right: 5%;
+    }
+
+    footer input {
+        width: 200px;
+}
+
+}
