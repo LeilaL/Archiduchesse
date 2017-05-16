@@ -66,6 +66,52 @@ div {
   margin-top: 70px;
 }
 
+h1 {
+    width: 90%;
+    margin: 100px 0 0 auto;
+    font-family: inherit;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.chausettesize {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.chausettesize ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.chausettesize ul li {
+    width: 62px;
+    height: 26px;
+    background-color: rgba(240, 240, 240);
+    margin-left: 7px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    padding: 2px;
+    text-align: center;
+}
+
+.chausettesize li:first-child {
+    background-color: #4A4A4C;
+}
+
+.chausettesize li:first-child a {
+    color: white;
+}
+
+.chausettesize ul li a {
+    display: block;
+    width: 80%;
+    margin: auto;
+    color: #A3A3A3;
+}
+
+
 /*$$$$$$$$$$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$$$$*/
 
 .face, .twitter {
@@ -202,12 +248,140 @@ footer article img {
 @media (min-width:900px) {
 
 /*$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$$*/
+#panier, .logo i {
+  display: none;
+}
+
+header, .maincontainer, .footer {
+        width: 65%;
+        margin: auto;
+    }
+    .logo i {
+        display: none;
+    }
+    .navchausette {
+        width: 100%;
+    }
+    footer {
+        background-color: lightgrey;
+        padding-top: 35px;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+}
+
+.backgroundheader {
+        width: 100%;
+        background-color: #F4F4F1;
+    }
+    header {
+        position: inherit;
+        box-shadow: inherit;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    h1 {
+        width: 100%;
+    }
+    .navchausette, .mainnav, .panier {
+        display: block;
+    }
+    .logo {
+        width: 30%;
+}
+
+.mainnav {
+       width: 20%;
+   }
+   .mainnav ul {
+       display: flex;
+       justify-content: space-around;
+   }
+   .mainnav ul li {
+       padding: 5px;
+   }
+   .mainnav ul li:hover {
+       background-color: white;
+       border-radius: 4px;
+   }
+   .mainnav ul li a:hover {
+       text-decoration: none;
+       font-weight: inherit;
+   }
+   .logo figure, .logo img {
+       width: 100%;
+       height: auto;
+       margin: auto;
+   }
+   .mainnav ul, .navchausette ul {
+       display: flex;
+       list-style-type: none;
+       flex-wrap: wrap;
+   }
+   .navchausette ul {
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+   }
+   .navchausette img, .navchausette figure {
+       width: 56px;
+       height: 56px;
+   }
+   .navchausette figure {
+       margin: 0;
+   }
+   .navchausette ul li {
+       width: 16%;
+   }
+   .navchausette ul li a {
+       display: flex;
+       width: 100%;
+       height: auto;
+       align-items: center;
+       padding: 0 7px;
+   }
+   .navchausette p {
+       font-size: 10px;
+       color: #555;
+       width: 90%;
+       text-decoration: none;
+   }
+   .navchausette span {
+       font-size: 16px;
+       text-decoration: none;
+   }
+   .navchausette ul li:first-child {
+       background-color: white;
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+}
+
+/*$$$$$$$$$$$$$$$$$MAIN$$$$$$$$$$$$$$$$*/
 
 div img {
   width: 100px;
 }
 
-  /*start of footer*/
+.chausettesize ul {
+        position: fixed;
+        flex-direction: column;
+        right: 35px;
+        top: 300px;
+        z-index: 2;
+    }
+    .chausette {
+        width: 22%;
+    }
+    .chausetteimg {
+        width: 44%;
+}
+
+  /*$$$$$$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$*/
    footer article {
         margin-right: 5%;
     }
