@@ -1,32 +1,54 @@
-/*$$$$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$$$*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+header, .maincontainer, .chausettesize ul, .imgarticle, .chausette span, .footer {
+    display: flex;
+}
+
+.navchausette, .mainnav, .panier, .navblog, .tablet, .desktop {
+    display: none;
+}
+
+.logo, header, footer {
+    width: 100%;
+}
+
+/* ==========================================================================
+                header rules
+========================================================================== */
+
+.logo figure {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.logo img {
+    width: 175px;
+    height: 50.5px;
+}
+
 header {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  margin-bottom: 30px;
-  width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    margin-bottom: 30px;
 }
-
-#mySidenav {
-  background-color: white;
-  width: 50px;
-  height: 38px;
-  color: black;
-}
-
-.menu {
-  display: none;
-}
-
-.logo {
-  width: 175px;
-  height: 50.5px;
-}
-
-.panier{
-  width: 30px;
-}
-
-/*$$$$$$$$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$$$$*/
